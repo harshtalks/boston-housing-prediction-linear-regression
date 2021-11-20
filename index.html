@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/tfjs.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>BOSTON HOUSE LISTING - LR</title>
+  </head>
+  <body>
+    <div class="tfjs-example-container centered-container">
+      <section class="title-area">
+        <h1>Multivariate Regression</h1>
+        <p>Boston Housing Price Model using Multiple Linear Regression</p>
+      </section>
+
+      <section>
+        <p class="section-head">
+          Description
+        </p>
+        <p>
+          This Model shows you how to perform regression with more than one
+          input feature using the
+          <a
+            href="https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html"
+            >Boston Housing Data</a
+          >
+          which is a famous data derived from information collected by the U.S.
+          Census Service concerning Housing in the area of Boston Massachusetts.
+        </p>
+        <p>
+          It allows you visually examine the linear regression model for
+          predicting the house prices. When training the linear model, it will
+          also display the largest 5 weights (by absolute value) of the model
+          and the feature associated with each of those weights.
+        </p>
+      </section>
+
+      <section>
+        <p class="section-head">Status</p>
+        <p id="status">Loading Data...</p>
+        <p id="baselineStatus">Baseline Not Computed...</p>
+      </section>
+
+      <section>
+        <p class="section-head">Training Progress</p>
+        <div>
+          <div id="linear">
+            <div class="chart"></div>
+            <div class="status"></div>
+            <div id="modelInspectionOutput">
+              <p id="inspectionHeadline"></p>
+              <table id="myTable"></table>
+            </div>
+          </div>
+          <div id="buttons">
+            <button id="simple-mlr">Train Linear Regressor</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
