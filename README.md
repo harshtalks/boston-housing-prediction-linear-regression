@@ -6,4 +6,4 @@ https://storage.googleapis.com/tfjs-examples/multivariate-linear-regression/data
 https://storage.googleapis.com/tfjs-examples/multivariate-linear-regression/data/test-data.csv 
 https://storage.googleapis.com/tfjs-examples/multivariate-linear-regression/data/test-target.csv
 
-## Visit https://csb-735oq.netlify.app/
+## Visit https://codesandbox.io/s/github/harshtalks/boston-housing-prediction-linear-regression/tree/main/?file=/src/index.js
